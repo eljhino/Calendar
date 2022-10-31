@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+input{
+    width:400px;
+    height:25px;
+    border-radius: 10px;
+}
+.container{
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 8fr;
+}
+.header{
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+.search{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    background-color: #38bdf8;
+    color: white;
+    grid-row: span 6;
+    height:100%;
+    padding-top: 10px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:10px;
+}
+.utility{
+    margin-top: 50px;
+}
+.label{
+    font-size: 25px;
+}
+.introduce{
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+.hello{
+    display:flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.smallerText{
+    font-size: 15px;
+}
+.create{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    border: 0px;
+}
+button{
+    color: white;
+    background-color: #38bdf8;
+    padding:10px;
+    width:100px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.grid{
+    background-color:#e5e5e5;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height:700px;
+
+}
+.projects{
+    grid-row: span 2;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 7fr 7fr 7fr;
+    text-align: left;
+    font-size: 25px;
+    margin:0px;
+}
+.project{
+    margin:20px;
+    border-radius: 20px;
+}
+
+.yep{
+    grid-column: span 2;
+    margin-left:20px;
+    margin-top:20px;
+}
+.project{
+    background-color: white;
+    width: 350px;
+    height:170px;
+}
+.announcements{
+    margin:20px;
+    text-align: left;
+    font-size: 25px;
+}
+.yes{
+    background-color: white;
+    width: 300px;
+    height:275px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.trending{
+    margin:0px 20px 20px 20px;
+    text-align: left;
+    font-size: 25px;
+}
+.yeah{
+    background-color: white;
+    width: 300px;
+    height:275px;
+    border-radius: 20px;
+    margin-top:10px;
+}
